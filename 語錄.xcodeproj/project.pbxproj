@@ -14,6 +14,7 @@
 		38533CB81F45F6E5005629EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38533CB61F45F6E5005629EC /* LaunchScreen.storyboard */; };
 		38533CC31F45F6E5005629EC /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38533CC21F45F6E5005629EC /* __Tests.swift */; };
 		38533CCE1F45F6E5005629EC /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38533CCD1F45F6E5005629EC /* __UITests.swift */; };
+		38533CDC1F45F764005629EC /* PhrasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38533CDB1F45F764005629EC /* PhrasesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		38533CC91F45F6E5005629EC /* 語錄UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "語錄UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38533CCD1F45F6E5005629EC /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
 		38533CCF1F45F6E5005629EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38533CDB1F45F764005629EC /* PhrasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhrasesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				38533CAD1F45F6E5005629EC /* AppDelegate.swift */,
 				38533CAF1F45F6E5005629EC /* ViewController.swift */,
 				38533CB11F45F6E5005629EC /* Main.storyboard */,
+				38533CDB1F45F764005629EC /* PhrasesViewController.swift */,
 				38533CB41F45F6E5005629EC /* Assets.xcassets */,
 				38533CB61F45F6E5005629EC /* LaunchScreen.storyboard */,
 				38533CB91F45F6E5005629EC /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38533CDC1F45F764005629EC /* PhrasesViewController.swift in Sources */,
 				38533CB01F45F6E5005629EC /* ViewController.swift in Sources */,
 				38533CAE1F45F6E5005629EC /* AppDelegate.swift in Sources */,
 			);
